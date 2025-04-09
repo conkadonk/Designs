@@ -41,6 +41,10 @@ strong {
     font-family: "Inter", sans-serif;
 }
 
+p {
+    font-family: "Inter", sans-serif;
+}
+
 /* Link style as a button */
 a:link, a:visited {
     background-color: black;
