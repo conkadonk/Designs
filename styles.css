@@ -42,11 +42,6 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-.profile-img {
-    max-width: 20%;
-    border-radius: 25%;
-}
-
  /* grid */
 .wrapper {
     display: grid;
@@ -76,8 +71,7 @@ p.intro {
 
 /* Link style as a button */
 a:link, a:visited {
-    background-color: black;
-    color: white;
+    color: black;
     font-family: "Inter", sans-serif;
     padding: 14px 25px;
     text-align: center;
@@ -87,6 +81,6 @@ a:link, a:visited {
   }
   
   a:hover, a:active {
-    background-color: darkgrey;
+    color: dimgray;
   }
 
