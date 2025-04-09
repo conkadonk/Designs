@@ -6,6 +6,25 @@
     font-style: normal;
   }
 
+.profile-img {
+    max-width: 40%;
+}
+
+ /* grid */
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* ratio of column widths */
+    grid-template-rows: 1fr 1fr;
+  }
+
+ /* parent grid */
+  .parent {
+    display: grid;
+    gap: 16px;
+    height: 300px;
+  }
+
 h1 {
     font-family: "Inter", sans-serif;
 }
@@ -13,6 +32,9 @@ h1 {
 button {
     font-family: "Inter", sans-serif;
     background-color: black;
+    color: white;
+    outline: none;
+    padding: 2%;
 }
 
 body {
